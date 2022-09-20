@@ -1,0 +1,48 @@
+{
+    "name": "hoangphi/pre-commit",
+    "description": "Check coding standard & code syntax before commit.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "git pre-commit",
+        "php coding standard",
+        "php code syntax",
+        "php git commit checker"
+    ],
+    "authors": [
+        {
+            "name": "Phi Hoang",
+            "email": "hoangphi.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "HoangPhi\\PreCommit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HoangPhi\\PreCommit\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.1.3|^8.0|^8.1",
+        "laravel/framework": "^5.6|^6|^7|^8|^9",
+        "php-parallel-lint/php-parallel-lint": "^1.0",
+        "squizlabs/php_codesniffer": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1|^7.0|^8.0|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HoangPhi\\PreCommit\\Providers\\PreCommitServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
