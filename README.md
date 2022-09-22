@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/hoangphi/pre-commit.svg?style=flat-square)](https://packagist.org/packages/hoangphi/pre-commit)
 [![Total Downloads](https://img.shields.io/packagist/dt/hoangphi/pre-commit.svg?style=flat-square)](https://packagist.org/packages/hoangphi/pre-commit)
-[![Quality Score](https://img.shields.io/scrutinizer/g/hoangphi/pre-commit.svg?style=flat-square)](https://scrutinizer-ci.com/g/hoangphi/pre-commit)
 
 ## Installation
 
